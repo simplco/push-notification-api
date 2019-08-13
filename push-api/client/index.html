@@ -8,6 +8,15 @@
 <body>
   <h1>Web-Push</h1>
   <p>Welcome to Web-Push Notifications</p>
+  <br>
+  <label>I would like to receive notifications </label>
+  <input type="number" value="30" id="minutes"> 
+  <label> minutes prior to peak hours.</label>
+  <label>Username?</label>
+  <input type="text" id="username" placeholder="username" required> 
+  <br>
+  <input type="button" value="Notify me!" onclick="subscribe()" id="subscribe">
+
   <script src="client.js"></script>
 </body>
 
