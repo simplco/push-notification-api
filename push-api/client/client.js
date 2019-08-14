@@ -43,7 +43,7 @@ async function beginTimer() {
     var minutes = 60 - $('#minutes').val();
     var currTime = new Date();
     var timeTrigger = new Date(currTime);
-    timeTrigger.setHours(15, minutes, 0, 0); //Set the time to trigger the notification. 3:(minutes) pm e.g. 3:30
+    timeTrigger.setHours(16, minutes, 0, 0); //Set the time to trigger the notification. 3:(minutes) pm e.g. 3:30
     if (currTime > timeTrigger) {
         timeTrigger.setDate(currTime.getDate() + 1); //if its already past peak time, offset the trigger time by one day
     }
