@@ -1,2 +1,2 @@
-# desktop-push-notification-api
-Make sure to npm install before loading the app
+# Push Notification API Web Interface
+Description: Boiler plate implementation of a web interface able to send scheduled push notifications to a mobile or desktop device.   
